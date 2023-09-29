@@ -1,0 +1,27 @@
+{
+  "name": "class-resource-app",
+  "version": "1.0.0",
+  "description": "Resource app for classes",
+  "main": "server.js",
+  "scripts": {
+    "seed": "node seeds/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KC135Q/class-resource-app.git"
+  },
+  "author": "Danny K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KC135Q/class-resource-app/issues"
+  },
+  "homepage": "https://github.com/KC135Q/class-resource-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
